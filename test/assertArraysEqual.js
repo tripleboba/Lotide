@@ -16,9 +16,11 @@ const assertArraysEqual = (arr1, arr2, msg = "note?") => {
 const trueType = (value) => {
   // const arr = value;
                     // was arr
-  const arrString = value.map(x => typeof x === 'string' ? "\"" + x + "\"" : x);
-  const result = "[" + arrString.join(", ") + "]";
+  const arrString = value.map(x => typeof x === 'string' ? `"${x}"` : x);
+  const result = `[${arrString.join(", ")}]`;
   return result;
 };
+
+assertArraysEqual([1,2,3],[1,'2',3]);
 
 module.exports = assertArraysEqual;

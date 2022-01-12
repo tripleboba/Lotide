@@ -7,8 +7,8 @@ const assertEqual = (actual, expect, msg = "note?") => {
 };
 
 // Function for displaying the type of variables (optional)
-const trueType =  (string) => {
-  return typeof string === 'string' ? "\"" + string + "\"" : string;
+const trueType =  (str) => {
+  return typeof str === 'str' ? `"${str}"` : str;
 };
 
 module.exports = assertEqual;
