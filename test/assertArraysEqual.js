@@ -21,6 +21,4 @@ const trueType = (value) => {
   return result;
 };
 
-assertArraysEqual([1,2,3],[1,'2',3]);
-
 module.exports = assertArraysEqual;

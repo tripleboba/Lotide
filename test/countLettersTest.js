@@ -29,7 +29,9 @@ describe("#countLetters", () => {
   });
   it("Return empty {} for no input/empty string/space and symbols string ", () => {
     const test4 = countLetters("<>:? )(*&%$");
-    // return an empty [] of key
+    // return an empty [] of key (because using strictEqual)
     assert(Object.keys(test4).length, 0);
+    // for assert.deepEqual
+    // assert(test4, {})
   });
 });
