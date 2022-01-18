@@ -31,7 +31,6 @@ describe("#countLetters", () => {
     const test4 = countLetters("<>:? )(*&%$");
     // return an empty [] of key (because using strictEqual)
     assert(Object.keys(test4).length, 0);
-    // for assert.deepEqual
-    // assert(test4, {})
+    // using assert.deepEqual: assert(test4, {})
   });
 });
