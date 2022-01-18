@@ -27,6 +27,9 @@
 16. [assertObjectsEqual](test/assertObjectsEquals.js) - console.log the message of test cases for 2 objectst | 🦖
 
 > Test cases
+
+> To run all 'chai' tests: `npm test`
+> To run specific test: `npm test test\test_file_name`
 17. [headTest](test/headTest.js) - test cases for [head](head.js)
 18. [middleTest](test/middleTest.js) - test cases for [middle](middle.js)
 19. [tailTest](test/tailTest.js) - test cases for [tail](tail.js)
