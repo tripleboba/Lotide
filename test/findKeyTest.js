@@ -1,4 +1,5 @@
 // TEST CODES
+const findKey = require('../findKey');
 console.log(
 
   findKey({
